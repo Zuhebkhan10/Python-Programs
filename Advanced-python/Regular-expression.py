@@ -68,3 +68,10 @@ emails=re.findall(r"[a-zA-Z0-9_.]+@[a-z]+\.[a-z]+",t)
 print(emails)
 
 #validate the email
+
+pattern = r'^\w+@\w+\.\w+'
+email = "shahzain22@gmail.com"
+if re.fullmatch(pattern,email):
+    print("yes valid email")
+else:
+    print("invalid email")
