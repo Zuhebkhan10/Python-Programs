@@ -31,6 +31,7 @@ print(cube(3))
 print(sqrt(25))
 
 
+
 def power(a):
     return lambda x:x**a
 square=power(2)

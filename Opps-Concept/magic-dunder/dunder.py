@@ -12,7 +12,7 @@ class Customer:
 
     def __len__(self):
         return len(self.name)
-
+ 
 c=Customer("Harry-Potter",56499)
 print(c.name,c.salary)
 
